@@ -1,0 +1,42 @@
+ /* COMENTARIOS EN CSS*/
+ /*primer forma*/
+ 
+ .encabezado {
+     /* font-size es el tamaño de la fuente*/
+     font-size: 72px;
+     /* las unidades y el numero deben estar juntas px,cm,m,in,% em,rem----- 72cm.72i,,72px*/
+     color: rgb(162, 0, 255);
+     /*background-color es para el color de fondo*/
+     background-color: rgb(16, 18, 144);
+     background-color: #ff0000;
+     /* text-align nos permite alinear texto*/
+     text-align: center;
+     /* el text transform cambio en mayusculas, minusculas */
+     text-transform: lowercase;
+ }
+ 
+ body {
+     background-color: rgb(87, 69, 69);
+ }
+ 
+ #texto {
+     color: rgb(0, 68, 255);
+     background-color: rgb(128, 0, 0);
+     font-size: 24px;
+     font-style: italic;
+ }
+ 
+ .texto {
+     color: white;
+     background-color: black;
+ }
+ 
+ p {
+     color: white;
+     background-color: dimgray;
+ }
+ 
+ p {
+     color: gold;
+     background-color: teal;
+ }

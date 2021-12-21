@@ -1,0 +1,27 @@
+.red {
+    color: red;
+}
+
+body {
+    background-color: rgb(151, 182, 238);
+}
+
+h1 {
+    text-align: right;
+    font-weight: bold;
+}
+
+.naranjafuerte {
+    color: rgb(184, 126, 19);
+    font-weight: bold;
+}
+
+.naranja {
+    color: orange;
+}
+
+.verdeblanco {
+    color: green;
+    background-color: white;
+    font-style: italic;
+}
