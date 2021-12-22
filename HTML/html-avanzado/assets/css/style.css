@@ -1,0 +1,13 @@
+.formula {
+    border: 1px solid red;
+}
+
+.clase_nombre {
+    background-color: rgb(70, 18, 18);
+    border: 2px solid rgb(207, 85, 238);
+    border-radius: 2px;
+}
+
+#password {
+    border: 2px dashed blue;
+}

@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(235, 192, 218);
+    /*   background-image: url(https://st2.depositphotos.com/5539346/8617/v/950/depositphotos_86175110-stock-illustration-vector-modern-seamless-sacred-geometry.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subtitle {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.caja {
+    width: 300px;
+    /*ANCHO*/
+    height: 300px;
+    /* ESTA ES LA ALTURA*/
+    /*margin: 20px;*/
+    /*esta es la separaciond de las cajas*/
+    margin-bottom: 20px;
+    font-size: 50px;
+    /*     padding: 20px; */
+    margin: 20px;
+    /* acomoda nuesto elemento puede ser arriba, derecha o izquierda*/
+    padding: 20px;
+    /* border-radius: 50%;
+} */
+}
+
+.roja {
+    /* background-color: red; */
+    border: 5px solid red;
+    font-size: 100px;
+}
+
+.verde {
+    /*  background-color: green; */
+    border: 5px solid green;
+}
+
+.azul {
+    /* background-color: blue; */
+    border: 5px solid blue;
+}
