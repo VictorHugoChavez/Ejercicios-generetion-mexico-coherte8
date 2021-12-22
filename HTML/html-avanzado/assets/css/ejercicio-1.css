@@ -34,3 +34,9 @@
 .boot {
     margin-left: 30px;
 }
+
+label {
+    display: inline-block;
+    width: 80px;
+    ;
+}
