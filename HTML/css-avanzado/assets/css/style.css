@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+p {
+    /* font-family: 'Yuji Hentaigana Akebono', cursive; */
+    font-family: 'Shizuru', cursive;
+}
+
+body {
+    background-color: slateblue;
+}

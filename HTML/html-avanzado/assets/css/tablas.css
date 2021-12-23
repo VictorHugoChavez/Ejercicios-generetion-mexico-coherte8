@@ -1,0 +1,20 @@
+table,
+tr,
+th,
+td {
+    border: 1px solid black;
+    /*crea un border al rededor de las variables que nosotros hicimos*/
+    background-color: rgb(77, 1, 1);
+}
+
+table {
+    width: 500px;
+}
+
+th {
+    background-color: brown;
+}
+
+td {
+    background-color: slategray;
+}

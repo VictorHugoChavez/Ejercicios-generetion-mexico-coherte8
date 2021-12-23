@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/tablas.css">
+    <title>Tablas</title>
+</head>
+
+<body>
+    <h1>Tablas</h1>
+    <!--  colspan y rowspan solo se ocupan en los elemenots th y td -->
+    <!-- colspan hace que se extienda por columnas;; es decir que une las celdas se extiende por columnas, crece hacia la derecha -->
+    <!-- rowspan hace que se extienda por filas se extiende por filas crece hacia abajo -->
+    <table>
+        <thead>
+            <!---->
+            <tr>
+                <th>Cabecera</th>
+                <!--th crea una celda de cabezera en la fila, este la centra y la pone en negrita-->
+                <!--  <th>Cabecera</th> -->
+                <th colspan="2">Cabecera2</th>
+            </tr>
+            <!--tr crea una fila -->
+        </thead>
+        <tbody>
+            <!-- tbody, thead,tfood separar las secciones de la tabla -->
+            <tr>
+                <td>a</td>
+                <td>b</td>
+                <td rowspan="3">c</td>
+            </tr>
+            <tr>
+                <td>Hola</td>
+                <!--td es para una celda -->
+                <td>Adios</td>
+                <!-- <td rowspan="2">SALUD</td> -->
+            </tr>
+            <tr>
+                <td>23125</td>
+                <!--td es para una celda -->
+                <td>15462</td>
+
+            </tr>
+            <tr>
+                <td>Pie de tabla</td>
+                <!--td es para una celda -->
+                <td>Pie de tabla</td>
+                <td>SALUD</td>
+            </tr>
+
+
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+</body>
+
+</html>

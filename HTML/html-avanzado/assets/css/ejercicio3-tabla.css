@@ -1,0 +1,14 @@
+tr,
+th,
+td,
+table {
+    border: 1px solid black;
+}
+
+.ajus {
+    margin-left: 200px;
+}
+
+h3 {
+    margin-left: 215px;
+}

@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(127, 255, 212);
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid black;
+    width: 800px;
+    margin-left: 300px;
+}
+
+.ama {
+    background-color: yellow;
+}
+
+.n {
+    background-color: black;
+}
+
+.red {
+    background-color: rgb(210, 105, 30);
+}
+
+.blll {
+    font-weight: bold;
+}
+
+.RODD {
+    color: red;
+}
+
+.curs {
+    font-style: italic;
+}
+
+.aco {
+    margin-left: 500px;
+}
