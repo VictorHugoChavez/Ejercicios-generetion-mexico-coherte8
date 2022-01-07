@@ -1,0 +1,23 @@
+    table,
+    tr,
+    th,
+    td {
+        border: 1px solid black;
+    }
+    
+    table {
+        width: 500px;
+    }
+    
+    .enlace {
+        /* se comporta como en bloques*/
+        background-color: cornsilk;
+    }
+    
+    #bloque {
+        display: block;
+        height: 30px;
+        background-color: black;
+        color: aliceblue;
+        text-align: center;
+    }

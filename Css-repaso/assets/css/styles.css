@@ -1,0 +1,42 @@
+* {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    background-color: rgb(42, 2, 65);
+    height: 50px;
+}
+
+.menu ul {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu .elemento {
+    display: inline;
+    margin: 0 20px;
+}
+
+.elemento a {
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    line-height: 50px;
+    /* es para el texto acodarlo de forma centrada*/
+    transition: color 0.5s;
+    /*Realiza  una transicion de color cuando el mause pasa por ahi dura 0.5 segundos */
+}
+
+.elemento a:hover {
+    /*Es cuendo pasa por el mause la letras realizcando un efecto */
+    color: rgb(236, 88, 88);
+}
