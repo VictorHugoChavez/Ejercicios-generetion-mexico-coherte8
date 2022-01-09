@@ -1,0 +1,42 @@
+body {
+    background-color: lightgrey;
+}
+
+.titulo-principal {
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.contenido-principal {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contenido-principal .encabezado {
+    background-color: grey;
+    color: honeydew;
+    padding: 10px 5px;
+}
+
+.contenido-principal .contenido-imagen {
+    float: left
+}
+
+
+/*.contenido-principal article {
+    width: 90%;
+}*/
+
+.contenido-principal .contenido {
+    margin-bottom: 60px;
+    margin-left: 70px;
+}
+
+.contenido .contenido-texto {
+    margin-left: 30px;
+}
+
+.contenido-principal .contenido-texto p {
+    text-indent: 40px;
+    text-align: justify;
+}
