@@ -38,13 +38,13 @@ subtitle.textContent = 'Este es un subtítulo desde JS';
 // .body nos lleva a esa parte del documento
 // .append inserta el elemento al final del documento 
 /* document.body.append(subtitle); */
-$title.insertAdjacentElement("afterend", subtitle); // inserta el elemento  despues te lña qtiqueta que hice referencia 
-$titulo.remove();
+$title.insertAdjacentElement("afterEnd", subtitle); // inserta el elemento  despues te la etiqueta que hice referencia 
+$title.remove();
 
-let $contenido = document.querySelector('#Contenido')
-    //console.log($contenido.textContent = "Hola"); //Borra lo que tiene adentro de mi a Html, mo nos permite poner etiquetas como HTML
-console.log($contenido.innerHTM = '<br>'); // la eqtiqueta br o tambien otra eqtiqueta si lo puede escribir con ayuda con el innerHTM, hasta sobreescribir el Html o insentarlo,devuelve  el conetenido Html del elemento, se puede asignar para modificar, a este solo modifica al hijo 
-console.log($contenido.outerHTML = 'Hola') // afecta todo el elemnto de nuestra ID contenido, incluye al div, se puede decir  que el outer modifico padre y el hijo 
+let $contenido = document.querySelector('#contenido');
+//console.log($contenido.textContent = "Hola"); //Borra lo que tiene adentro de mi a Html, nos permite poner etiquetas como HTML
+/*console.log($contenido.innerHTML = '<h2>'); // la eqtiqueta br o tambien otra eqtiqueta si lo puede escribir con ayuda con el innerHTM, hasta sobreescribir e insentarlo en el HTML,devuelve  el conetenido Html del elemento, se puede asignar para modificar, a este solo modifica al hijo */
+console.log($contenido.outerHTML = 'Hola'); // afecta todo el elemnto de nuestra ID contenido, incluye al div, se puede decir  que el outer modifico padre y el hijo 
 
 let contenidoParrafo = document.createElement('p');
 contenidoParrafo.textContent = 'Contenido de mi nuevo parrafo';
