@@ -14,13 +14,13 @@ public class comprasComparacion {
 		float cuenta10= cuenta*0.90f;
 		float cuenta20=cuenta*0.80f;
 		float cuenta30=cuenta*0.70f;
-		 if(cuenta<1000) {
+		 if(cuenta<=999) {
 			 System.out.println("Lo sentimos para obtener un descuento, su cuenta debe ser mayor a 1000");
-		 }else if(cuenta>1000 && cuenta<4999) {
+		 }else if(cuenta>=1000 && cuenta<5000) {
 			 System.out.println("Se le hizo  un descuento del 10% y su cuenta a pagar es de " + cuenta10);
-		 }else if(cuenta>5000 && cuenta <9999) {
+		 }else if(cuenta>=5000 && cuenta <10000) {
 			 System.out.println("Se le hizo  un descuento del 20% y su cuenta a pagar es de " + cuenta20); 
-		 } else if(cuenta>10000) {
+		 } else if(cuenta>=10000) {
 			 System.out.println("Se le hizo  un descuento del 30% y su cuenta a pagar es de " + cuenta30);
 		 }
 	}
