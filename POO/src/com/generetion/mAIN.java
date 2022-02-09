@@ -30,6 +30,15 @@ public class mAIN {
 		
 		System.out.println(taco3); /// se llama el meotdo toString por default
 		*/	
+		Tacos Taco3= new Tacos () ;
+		Taco3.setTipoDeTortilla("Harina");
+		Taco3.setTipoDeGuisado("tres Cranes");
+		Taco3.setNumeroDeTortilla(3);
+		Taco3.setTamanioDeTortilla("Tamaño Burrito");
+		Taco3.setPrecio(110.2f);
+		
+		System.out.println("Numero de Tortillas " + Taco3.getNumeroDeTortilla());
+			
 		
 		
 				

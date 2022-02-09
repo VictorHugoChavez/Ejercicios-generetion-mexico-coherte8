@@ -63,6 +63,9 @@ public class Tacos {
 		this.tamanioDeTortilla=tamanioDeTortilla;
 		this.precio=precio;
 	}
+	////////////////////////
+	///Todo es correspondiente 
+	
 	public String getTipoDeTortilla() {
 		return tipoDeTortilla;
 	}
@@ -75,11 +78,17 @@ public class Tacos {
 	public void setTipoDeGuisado(String tipoDeGuisado) {
 		this.tipoDeGuisado = tipoDeGuisado;
 	}
-	public int getNumeroDeTortilla() {
+	public int getNumeroDeTortilla() {	
 		return numeroDeTortilla;
 	}
 	public void setNumeroDeTortilla(int numeroDeTortilla) {
-		this.numeroDeTortilla = numeroDeTortilla;
+		if(numeroDeTortilla>0 && numeroDeTortilla<=4) {
+			this.numeroDeTortilla = numeroDeTortilla;
+		}else {
+			throw new IllegalArgumentException("Excedio el numero te tortillas"
+					+ "Bajale por estas como estas");
+		}
+		
 	}
 	public String getTamanioDeTortilla() {
 		return tamanioDeTortilla;
@@ -91,12 +100,22 @@ public class Tacos {
 		return precio;
 	}
 	public void setPrecio(float precio) {
-		this.precio = precio;
+		if(precio>0 && precio<=1000) {
+			this.precio = precio;
+		}else {
+			throw new IllegalArgumentException("COMO TRAGAS, BAJALE POR ESO NO TE DURA QUINCENA");
+		}
+		
+		
 	}
 
 
 
 //////////////////////
+
+
+
+
 
 	void preparar() {
 		System.out.println("Prepara tu rico taco");
